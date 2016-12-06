@@ -81,7 +81,7 @@ bar
 Delete the pod we just used to set the `/foo` value:
 
 ```
-$ kubectl delete zookeeper-1
+$ kubectl delete pod zookeeper-1
 $ kubectl exec -ti zookeeper-2 bash
 
 [root@zookeeper-2]# /opt/zookeeper/bin/zkCli.sh
